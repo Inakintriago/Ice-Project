@@ -1,38 +1,38 @@
-# 🎮 Tienda Online Ice: Análisis de Ventas de Videojuegos
+# 🎮 Ice Online Store: Video Game Sales Analysis
 
-## 📝 Contexto
-Tienda Online Ice es una plataforma global de ventas de videojuegos que opera a través de diferentes regiones: América del Norte (NA), Europa (EU) y Japón (JP). El objetivo de este proyecto es analizar los datos históricos de ventas, calificaciones de usuarios y expertos, géneros de juegos y plataformas, para identificar patrones que predigan el éxito de los videojuegos y ayudar a planificar campañas publicitarias más efectivas para 2017. A partir de los datos de 2016, se busca optimizar las estrategias de marketing y seleccionar los títulos más prometedores.
+## 📝 Context
+Ice Online Store is a global video game sales platform operating across different regions: North America (NA), Europe (EU), and Japan (JP). The goal of this project is to analyze historical sales data, user and expert ratings, game genres, and platforms, to identify patterns that predict the success of video games and help plan more effective advertising campaigns for 2017. Using data from 2016, the aim is to optimize marketing strategies and select the most promising titles.
 
-## 🛠️ Herramientas Utilizadas
-- **Python**: Análisis de datos y modelado estadístico.
-- **Pandas**: Limpieza, transformación y análisis de datos.
-- **Matplotlib** y **Seaborn**: Visualización de patrones y tendencias en las ventas y características de los juegos.
-- **SciPy**: Pruebas estadísticas para validar las hipótesis de diferencias en calificaciones y ventas.
-- **Jupyter Notebook**: Documentación interactiva y detallada del análisis.
+## 🛠️ Tools Used
+- **Python**: Data analysis and statistical modeling.
+- **Pandas**: Data cleaning, transformation, and analysis.
+- **Matplotlib** and **Seaborn**: Visualization of patterns and trends in game sales and characteristics.
+- **SciPy**: Statistical tests to validate hypotheses about differences in ratings and sales.
+- **Jupyter Notebook**: Interactive and detailed documentation of the analysis workflow.
 
-## 📈 Análisis de Resultados
-El proyecto se estructuró en varias fases:
+## 📈 Results Analysis
+The project was structured in several phases:
 
-1. **Preprocesamiento de Datos**:
-   - Limpieza de columnas y tratamiento de valores nulos, como la sustitución de "TBD" en las clasificaciones de ESRB.
-   - Conversión de datos de ventas en diferentes regiones a un formato unificado.
-   - Cálculo de ventas totales por juego.
+1. **Data Preprocessing**:
+   - Cleaning columns and handling missing values, such as replacing "TBD" in ESRB ratings.
+   - Conversion of sales data from different regions into a unified format.
+   - Calculation of total sales per game.
 
-2. **Análisis Descriptivo**:
-   - Análisis de las ventas de videojuegos a lo largo de los años, observando las plataformas más rentables.
-   - Comparación de ventas por plataformas, identificando las que han desaparecido y las que emergen con éxito.
+2. **Descriptive Analysis**:
+   - Analysis of video game sales over the years, observing the most profitable platforms.
+   - Comparison of sales by platforms, identifying those that have disappeared and those that have emerged successfully.
 
-3. **Pruebas de Hipótesis**:
-   - Evaluación de las diferencias de calificación promedio entre plataformas y géneros.
-   - Confirmación de diferencias significativas en las calificaciones de plataformas como Xbox One y PC, así como entre géneros de Acción y Deportes.
+3. **Hypothesis Testing**:
+   - Evaluation of the differences in average ratings between platforms and genres.
+   - Confirmation of significant differences in ratings for platforms such as Xbox One and PC, as well as between Action and Sports genres.
 
-4. **Análisis Regional**:
-   - Identificación de las principales plataformas y géneros en distintas regiones, y cómo las calificaciones ESRB afectan las ventas.
+4. **Regional Analysis**:
+   - Identification of the leading platforms and genres in different regions, and how ESRB ratings affect sales.
 
-## 📋 Conclusiones
-- Los géneros más rentables, como **Acción** y **Deportes**, mostraron una mayor audiencia, con ventas consistentes a través de varias plataformas.
-- Las plataformas más populares, como **PlayStation** y **Xbox**, tuvieron un rendimiento superior en Norteamérica, mientras que las ventas en Japón fueron dominadas por plataformas más locales.
-- Las reseñas tanto de usuarios como de críticos influyen en las ventas, pero el impacto varía según la región y la plataforma, lo que destaca la importancia de adaptar las estrategias de marketing a las preferencias locales.
-- La clasificación ESRB mostró que los juegos con clasificación **“E”** (Apto para Todos) y aquellos sin clasificación son los más vendidos en todas las regiones, especialmente en Norteamérica y Japón, lo que sugiere que los consumidores prefieren juegos accesibles a audiencias más amplias.
+## 📋 Conclusions
+- The most profitable genres, such as **Action** and **Sports**, had a larger audience, with consistent sales across multiple platforms.
+- The most popular platforms, like **PlayStation** and **Xbox**, performed better in North America, while sales in Japan were dominated by more local platforms.
+- Reviews from both users and critics influence sales, but the impact varies by region and platform, highlighting the importance of tailoring marketing strategies to local preferences.
+- The ESRB rating showed that games with an **“E”** (Everyone) rating and those without ratings were the best-sellers across all regions, especially in North America and Japan, suggesting that consumers prefer games accessible to a broader audience.
 
-Este análisis proporciona una visión integral del mercado de videojuegos, ayudando a la tienda Online Ice a tomar decisiones basadas en datos para mejorar sus campañas publicitarias y maximizar su rentabilidad en 2017.
+This analysis provides a comprehensive view of the video game market, helping Ice Online Store make data-driven decisions to improve its advertising campaigns and maximize profitability in 2017.
